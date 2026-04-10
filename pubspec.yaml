@@ -1,0 +1,46 @@
+name: kisanai
+description: KisanAI - Smart Farmer App for Indian Farmers
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI & Fonts
+  google_fonts: ^6.1.0
+  percent_indicator: ^4.2.3
+  fl_chart: ^0.66.0
+
+  # Image & Camera
+  image: ^4.1.3
+  image_picker: ^1.0.7
+
+  # Network
+  http: ^1.2.0
+
+  # Voice — UPGRADED to 7.x fixes Kotlin Registrar error
+  speech_to_text: ^7.0.0
+  flutter_tts: ^4.0.2
+
+  # Permissions & Location
+  permission_handler: ^11.3.0
+  geolocator: ^11.0.0
+
+  # Storage
+  shared_preferences: ^2.2.3
+  path_provider: ^2.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/model/
+    - assets/images/

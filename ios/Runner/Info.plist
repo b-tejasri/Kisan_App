@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>NSCameraUsageDescription</key>
+    <string>KisanAI needs camera to scan crop diseases</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>KisanAI needs microphone for voice assistant — speak to ask farming questions</string>
+    <key>NSSpeechRecognitionUsageDescription</key>
+    <string>KisanAI uses speech recognition so farmers can speak their questions</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>KisanAI needs photo access to scan crop images</string>
+    <key>UIBackgroundModes</key>
+    <array>
+        <string>audio</string>
+    </array>
+</dict>
+</plist>
